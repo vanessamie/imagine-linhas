@@ -1,0 +1,10 @@
+/*------ BANNER -----*/
+
+.cabecalho__banner {
+    width: 100vw;
+}
+
+.banner__img {
+    height: 35.2rem;
+    width: 100%;
+}

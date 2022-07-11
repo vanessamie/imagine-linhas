@@ -1,0 +1,10 @@
+/*----- NAV -----*/
+.cabecalho__nav {
+    display: flex;
+    flex-direction: row;
+    margin-inline: 15.2rem;
+    padding: 3.2rem 0;
+    justify-content: space-between;
+    align-items: center;
+}
+

@@ -1,0 +1,33 @@
+/*----- SEARCH -----*/
+.nav__search {
+    background: url(../search.svg) no-repeat 1rem/2rem, var(--background-footer);
+    border-radius: 50%;
+
+    cursor: pointer;
+    height: 4rem;
+
+    padding-left: 4rem;
+    transition-duration: 300ms;
+
+    transition-property: width, border-radius, box-shadow;
+    width: 4rem;
+}
+
+.nav__search:focus {
+    border-radius: 20px;
+    box-shadow: 0 0 0 2px var(--color);
+    cursor: auto;
+
+    font-size: 1.8rem;
+    gap: .8rem;
+    height: 4rem;
+    
+    outline: none;
+    padding: 0 5rem;
+    width: 39.3rem;
+}
+
+.nav__search::placeholder {
+    color: var(--color);
+    font-size: 1.5rem;
+}
