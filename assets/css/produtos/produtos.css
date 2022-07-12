@@ -1,36 +1,7 @@
-#produtos {
+/*----- PRODUTOS -----*/
+.container #produtos {
     display: flex;
     flex-direction: column;
-    margin-inline: 6rem;
+    margin: 6.4rem 6rem;
 
-}
-
-#produtos img {
-    width: 150px;
-    height: 150px;
-}
-.produtos__texto {
-    display: flex;
-    font-size: 3rem;
-    justify-content: space-between;
-}
-
-.produtos__produtos {
-    display: flex;
-    justify-content: space-between;
-    height: 28rem;
-    padding: 2rem 0;
-}
-
-.produtos__nome,
-.produtos__preco {
-    font-size: 1.5rem;
-    max-width: 150px;
-    display: flex;
-    flex-wrap: wrap;
-    color: var(--dark-color);
-}
-
-.produtos__dimensao {
-    font-size: 1.2rem;
 }

@@ -1,0 +1,9 @@
+/*----- PRODUTOS CONTAINER -----*/
+.produtos__container {
+    align-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+    
+    justify-content: space-between;
+    padding: 3rem 0;
+}

@@ -20,7 +20,7 @@ body {
 }
 
 .container {
-    width: 98vw;
+    width: 99vw;
     margin: 0 auto;
 }
 
@@ -29,11 +29,11 @@ body {
     width: 1.6rem;
 }
 
-::-webkit-scrollbar-track {
-    background: var(--color);
-}
-
 ::-webkit-scrollbar-thumb {
     background: var(--background-footer);
     border-radius: 1.8rem;
+}
+
+::-webkit-scrollbar-track {
+    background: var(--color);
 }

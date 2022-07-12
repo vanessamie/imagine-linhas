@@ -1,0 +1,14 @@
+/*----- PRODUTOS CONTAINER INDIVIDUAL -----*/
+.produtos__um,
+.produtos__dois,
+.produtos__tres,
+.produtos__quatro,
+.produtos__cinco,
+.produtos__seis {
+    display: flex;
+    flex-direction: column;
+    height: 252px;
+    
+    justify-content: space-between;
+    max-width: 176px;
+}

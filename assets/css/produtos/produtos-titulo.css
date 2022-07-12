@@ -1,0 +1,11 @@
+/*----- PRODUTOS TITULO -----*/
+.produtos__texto {
+    display: flex;
+    font-size: 3rem;
+    justify-content: space-between;
+}
+
+.texto__link .fa-solid {
+    font-size: 1.6rem;
+    margin-left: 1.5rem;
+}

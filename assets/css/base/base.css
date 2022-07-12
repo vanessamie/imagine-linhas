@@ -2,11 +2,19 @@
 @import url(../base/reset.css);
 @import url(../base/style.css);
 
-@import url(../cabecalho//nav.css);
-@import url(../cabecalho/logo.css);
-@import url(../cabecalho//search.css);
-@import url(../cabecalho//login.css);
-@import url(../cabecalho//banner.css);
-@import url(../cabecalho//texto.css);
+@import url(../cabecalho/cabecalho.css);
+@import url(../cabecalho/cabecalho-nav.css);
+@import url(../cabecalho/cabecalho-logo.css);
+@import url(../cabecalho/cabecalho-search.css);
+@import url(../cabecalho/cabecalho-login.css);
+@import url(../cabecalho/cabecalho-banner.css);
+@import url(../cabecalho/cabecalho-texto.css);
 
 @import url(../produtos/produtos.css);
+@import url(../produtos/produtos-titulo.css);
+@import url(../produtos/produtos-container.css);
+@import url(../produtos/produtos-container-individual.css);
+@import url(../produtos/produtos-imagem.css);
+@import url(../produtos/produtos-texto.css);
+
+@import url(../footer/footer.css);

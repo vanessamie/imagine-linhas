@@ -1,0 +1,16 @@
+/*----- PRODUTOS TEXTO -----*/
+.produtos__nome {
+    color: var(--dark-color);
+    display: flex;
+    
+    flex-wrap: wrap;
+    font-size: 1.5rem;
+}
+
+.produtos__dimensao,
+.produtos__link,
+.produtos__preco {
+    font-size: 1.2rem;
+    font-weight: bold;
+    height: 1.5rem;
+}
