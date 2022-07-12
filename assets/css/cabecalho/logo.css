@@ -1,5 +1,5 @@
 /*----- LOGO -----*/
-.nav__logo,
-.logo__logo {
-    width: 6rem;
+.nav__logo {
+    height: 5rem;
+    width: 15rem;
 }

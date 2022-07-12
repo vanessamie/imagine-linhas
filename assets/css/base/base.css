@@ -1,9 +1,12 @@
 /*----- IMPORT -----*/
 @import url(../base/reset.css);
 @import url(../base/style.css);
+
 @import url(../cabecalho//nav.css);
 @import url(../cabecalho/logo.css);
 @import url(../cabecalho//search.css);
 @import url(../cabecalho//login.css);
 @import url(../cabecalho//banner.css);
+@import url(../cabecalho//texto.css);
 
+@import url(../produtos/produtos.css);

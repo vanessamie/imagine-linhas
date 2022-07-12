@@ -1,7 +1,10 @@
 /*----- SEARCH -----*/
 .nav__search {
-    background: url(../search.svg) no-repeat 1rem/2rem, var(--background-footer);
+    background: url(../search.svg) no-repeat 1rem/2rem;
+    border: 1px outset var(--color);
+
     border-radius: 50%;
+    box-shadow: 2px 2px 10px 0 var(--color);
 
     cursor: pointer;
     height: 4rem;
@@ -15,7 +18,7 @@
 
 .nav__search:focus {
     border-radius: 20px;
-    box-shadow: 0 0 0 2px var(--color);
+    box-shadow: none;
     cursor: auto;
 
     font-size: 1.8rem;
@@ -29,5 +32,5 @@
 
 .nav__search::placeholder {
     color: var(--color);
-    font-size: 1.5rem;
+    font: 1.5rem / bold;
 }

@@ -1,5 +1,6 @@
 /*----- BASE -----*/
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Style+Script&display=swap');
 
 /*----- ROOT -----*/
 :root {
@@ -7,16 +8,20 @@
     
     --color: rgb(var(--hue), 16, 134);
     --dark-color: rgb(calc(var(--hue) - 1), 8, 80);
-    --background-principal: rgb(235, 217, 247);
+    --background: rgb(235, 217, 247);
     --background-footer: rgb(201, 129, 235);
 }
 
+html,
 body {
     font-family: 'Raleway', sans-serif;
-    font-weight: 700;
-    background: var(--background-principal);
+    background: var(--background);
     color: var(--color);
-    box-sizing: border-box;
+}
+
+.container {
+    width: 98vw;
+    margin: 0 auto;
 }
 
 /*----- SCROOL -----*/
