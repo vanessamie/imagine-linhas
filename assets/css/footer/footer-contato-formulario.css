@@ -20,7 +20,6 @@
     height: 3rem;
 }
 
-
 #form__nome:focus,
 #form__mensagem:focus {
     outline: none;
@@ -34,14 +33,9 @@
     } 
 }
 
-@media screen and (min-width: 768px) {
-    
-}
-
 @media screen and (min-width: 1024px) {
     #form__mensagem {
         height: 10rem;
         line-height: 2rem;
     }
-    
 }

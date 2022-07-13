@@ -7,6 +7,19 @@
     font-weight: bold;
 
     justify-content: space-between;
-    text-align: start;
+    line-height: 3rem;
     width: 17.6rem;
+}
+
+/*----- RESPONSIVO -----*/
+@media screen and (min-width: 0) {
+    .rodape__links {
+        text-align: center;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .rodape__links {
+        text-align: start;
+    }
 }

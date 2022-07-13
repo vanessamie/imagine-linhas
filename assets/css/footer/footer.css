@@ -17,26 +17,35 @@
         flex-wrap: wrap;
         gap: 3rem 10rem;
 
-        height: 70rem;
+        height: 80rem;
         justify-content: center;
-        padding: 4rem 5rem;
+        padding: 4rem;
+    }
+}
+@media screen and (min-width: 526px) {
+    .rodape__principal {
+        gap: 1rem 10rem;
+        height: 57rem;
+        padding: 5rem;
     }
 }
 
 @media screen and (min-width: 768px) {
     .rodape__principal {
         gap: 2rem;
-        height: 55rem;
+        height: 60rem;
 
         justify-content: space-evenly;
-        padding: 6.4rem 7rem;
+        padding: 7rem;
     }
 }
 
 @media screen and (min-width: 1024px) {
     .rodape__principal {
         flex-wrap: nowrap;
+        gap: 0;
         height: 36rem;    
         justify-content: space-between;
+        padding: 6.4rem 15.2rem;
     }
 }
