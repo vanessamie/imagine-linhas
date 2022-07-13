@@ -2,5 +2,23 @@
 .container #produtos {
     display: flex;
     flex-direction: column;
-    margin: 6.4rem 15.2rem;
+}
+
+/*----- RESPONSIVO -----*/
+@media screen and (min-width: 0) {
+    .container #produtos {
+        margin: 4rem;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .container #produtos {
+        margin: 5rem 7rem;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .container #produtos {
+        margin: 6.4rem 15.2rem;
+    }    
 }

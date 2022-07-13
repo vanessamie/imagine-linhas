@@ -19,12 +19,29 @@
 #form__nome {
     height: 3rem;
 }
-#form__mensagem {
-    height: 10rem;
-    line-height: 2rem;
-}
+
 
 #form__nome:focus,
 #form__mensagem:focus {
     outline: none;
+}
+
+/*----- RESPONSIVO -----*/
+@media screen and (min-width: 0) {
+    #form__mensagem {
+        height: 15rem;
+        line-height: 2rem;
+    } 
+}
+
+@media screen and (min-width: 768px) {
+    
+}
+
+@media screen and (min-width: 1024px) {
+    #form__mensagem {
+        height: 10rem;
+        line-height: 2rem;
+    }
+    
 }

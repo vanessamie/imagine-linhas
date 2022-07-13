@@ -3,7 +3,26 @@
     align-content: space-between;
     display: flex;
     flex-wrap: wrap;
-    
-    justify-content: space-between;
     padding: 3rem 0;
+    
+}
+
+/*----- RESPONSIVO -----*/
+@media screen and (min-width: 0) {
+    .produtos__container {
+        gap: 2rem 1rem;
+        justify-content: space-evenly;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .produtos__container {
+        justify-content: space-between;
+    } 
+}
+
+@media screen and (min-width: 1024px) {
+    .produtos__container {
+        gap: 2rem 0;
+    } 
 }

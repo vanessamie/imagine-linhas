@@ -5,7 +5,27 @@
     flex-direction: row;
 
     justify-content: space-between;
-    margin-inline: 15.2rem;
     padding: 2.2rem 0;
 }
 
+/*----- RESPONSIVO -----*/
+@media screen and (min-width: 0) {
+    .cabecalho__nav {
+        flex-wrap: wrap;
+        gap: 2rem;
+        margin-inline: 4rem;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .cabecalho__nav {
+        flex-wrap: nowrap;
+        margin-inline: 7rem;
+    }  
+}
+
+@media screen and (min-width: 1024px) {
+    .cabecalho__nav {
+        margin-inline: 15.2rem;
+    }
+}

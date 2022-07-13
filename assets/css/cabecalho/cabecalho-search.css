@@ -1,10 +1,9 @@
 /*----- NAV SEARCH -----*/
 .nav__search {
     background: url(../cabecalho/search.svg) no-repeat 1rem/2rem;
-    border: 1px outset var(--color);
+    border: 1px solid var(--color);
 
     border-radius: 50%;
-    box-shadow: 2px 2px 10px 0 var(--color);
 
     cursor: pointer;
     height: 4rem;
@@ -18,7 +17,6 @@
 
 .nav__search:focus {
     border-radius: 20px;
-    box-shadow: none;
     cursor: auto;
 
     font-size: 1.8rem;
@@ -28,6 +26,12 @@
     outline: none;
     padding: 0 5rem;
     width: 39.3rem;
+}
+
+.nav__search:focus,
+.nav__search:hover {
+    border: none;
+    box-shadow: 2px 2px 10px 0 var(--color);
 }
 
 .nav__search::placeholder {

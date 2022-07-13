@@ -8,3 +8,10 @@
     height: 35rem;
     width: 100%;
 }
+
+/*----- RESPONSIVO -----*/
+@media screen and (min-width: 1500px) {
+    .banner__img {
+        height: 50vh;
+    }
+}

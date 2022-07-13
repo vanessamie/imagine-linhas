@@ -6,10 +6,37 @@
 
 .rodape__principal {
     background: var(--background-footer);
-    display: flex;
-    height: 36rem;
-    
-    justify-content: space-between;
-    padding: 6.4rem 15.2rem;
+    display: flex;   
     width: 100%;
+}
+
+/*----- RESPONSIVO -----*/
+@media screen and (min-width: 0) {
+    .rodape__principal {
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 3rem 10rem;
+
+        height: 70rem;
+        justify-content: center;
+        padding: 4rem 5rem;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .rodape__principal {
+        gap: 2rem;
+        height: 55rem;
+
+        justify-content: space-evenly;
+        padding: 6.4rem 7rem;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .rodape__principal {
+        flex-wrap: nowrap;
+        height: 36rem;    
+        justify-content: space-between;
+    }
 }

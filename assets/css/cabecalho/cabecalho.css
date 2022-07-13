@@ -2,3 +2,9 @@
 #cabecalho {
     height: 45rem;
 }
+
+@media screen and (min-width: 1500px) {
+    #cabecalho {
+        height: 62vh;
+    }
+}

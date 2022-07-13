@@ -3,3 +3,16 @@
     height: 5rem;
     width: 15rem;
 }
+
+/*----- RESPONSIVO -----*/
+@media screen and (min-width: 0) {
+    .nav__logo {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .nav__logo {
+        display: block;
+    }    
+}

@@ -7,8 +7,83 @@
 .produtos__seis {
     display: flex;
     flex-direction: column;
-    height: 252px;
+    height: 25.2rem;
     
     justify-content: space-between;
-    max-width: 176px;
+    margin-inline: auto;
+}
+
+/*----- RESPONSIVO -----*/
+@media screen and (min-width: 0) {
+    .produtos__um,
+    .produtos__dois,
+    .produtos__tres,
+    .produtos__quatro,
+    .produtos__cinco,
+    .produtos__seis {
+        width: 15rem;
+    }
+}
+
+@media screen and (min-width: 480px) {
+    .produtos__um,
+    .produtos__dois,
+    .produtos__tres,
+    .produtos__quatro,
+    .produtos__cinco,
+    .produtos__seis {
+        width: 19rem;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .produtos__um,
+    .produtos__dois,
+    .produtos__tres,
+    .produtos__quatro,
+    .produtos__cinco,
+    .produtos__seis {
+        width: 25rem;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .produtos__um,
+    .produtos__dois,
+    .produtos__tres,
+    .produtos__quatro {
+        width: 22rem;
+    }
+    
+    .produtos__cinco,
+    .produtos__seis {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    .produtos__um,
+    .produtos__dois,
+    .produtos__tres,
+    .produtos__quatro,
+    .produtos__cinco,
+    .produtos__seis {
+        width: 17rem;
+    }
+
+    .produtos__cinco,
+    .produtos__seis {
+        display: flex;
+    }
+}
+
+@media screen and (min-width: 1500px) {
+    .produtos__um,
+    .produtos__dois,
+    .produtos__tres,
+    .produtos__quatro,
+    .produtos__cinco,
+    .produtos__seis {
+        width: 20rem;
+    }
 }
