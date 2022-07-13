@@ -1,0 +1,30 @@
+/*----- FOOTER CONTATO FORM -----*/
+.form__input {
+    margin-top: 1.6rem;
+}
+
+#form__nome,
+#form__mensagem {
+    background: var(--background);
+    border-radius: 0.5rem;
+
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 500;
+    
+    padding: 1rem;
+    width: 100%;
+}
+
+#form__nome {
+    height: 3rem;
+}
+#form__mensagem {
+    height: 10rem;
+    line-height: 2rem;
+}
+
+#form__nome:focus,
+#form__mensagem:focus {
+    outline: none;
+}

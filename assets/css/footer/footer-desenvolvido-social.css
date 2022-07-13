@@ -1,0 +1,10 @@
+/*----- FOOTER SOCIAL LINKS-----*/
+.rodape__social,
+.rodape__social .fa-brands {
+    font-size: 2.5rem;
+}
+
+.rodape__social {
+    letter-spacing: 2rem;
+    margin-top: 1rem;
+}

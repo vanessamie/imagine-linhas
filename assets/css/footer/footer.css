@@ -5,113 +5,11 @@
 }
 
 .rodape__principal {
-    padding: 6.4rem 15.2rem;
     background: var(--background-footer);
     display: flex;
-    justify-content: space-between;
-    width: 100%;
     height: 36rem;
-}
-
-.rodape__logo {
-    width: 14rem;
-    height: 14rem;
-}
-
-.logo__texto {
-    font-family: 'Style Script', cursive;
-    font-size: 1rem;
-    font-weight: bold;
-    letter-spacing: 0.1rem;
-    margin-top: -1.5rem;
-    margin-left: 6rem;
-}
-
-
-.rodape__links {
-    display: flex;
-    flex-direction: column;
-    width: 20rem;
-    font-size: 2.5rem;
-    gap: 2.4rem;
-    font-weight: bold;
-}
-
-.rodape__contato {
-    display: flex;
-    flex-direction: column;
-    width: 60rem;
-    font-size: 2rem;
-}
-
-.rodape__contato h2 {
-    font-size: 2rem;
-}
-
-.form__input {
-    padding-top: 2rem;
-}
-
-#form__name,
-#form__mail,
-#form__mensagem {
-    font-family: 'Raleway', sans-serif;
-    font-weight: 500;
-    font-size: 1.5rem;
-    width: 100%;
-    padding: 1rem;
-    background: var(--background);
-}
-
-#form__name,
-#form__mail {
-    height: 3rem;
-}
-#form__mensagem {
-    height: 10rem;
-    line-height: 2rem;
-}
-
-#form__name:focus,
-#form__mail:focus,
-#form__mensagem:focus {
-    outline: none;
-}
-
-.form__btn {
-    width: 30%;
-    text-align: center;
-    height: 3rem;
-    font-size: 1.5rem;
-    font-weight: bold;
-    color: var(--color);
-}
-
-.form__btn:hover {
-    transform: scale(1.1);
-    margin-top: 0.5rem;
-    margin-left: 1rem;
-    filter: brightness(1.2);
-    background: var(--color);
-    color: var(--background);
-    letter-spacing: 0.2rem;
-}
-
-
-.rodape__copy {
-    height: 10.2rem;
-    text-align: center;
-    padding: 3.2rem 0;
-}
-
-.rodape__desenvolvido,
-.rodape__social,
-.rodape__social .fa-brands {
-    font-size: 2.5rem;
     
-}
-
-.rodape__social {
-    margin-top: 1rem;
-    letter-spacing: 2rem;
+    justify-content: space-between;
+    padding: 6.4rem 15.2rem;
+    width: 100%;
 }

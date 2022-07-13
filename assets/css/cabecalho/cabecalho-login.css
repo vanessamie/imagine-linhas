@@ -1,4 +1,4 @@
-/*----- LOGIN -----*/
+/*----- NAV LOGIN -----*/
 .nav__login {
     background: linear-gradient(130deg, var(--background), var(--background-footer));
     border: 1px groove var(--color);

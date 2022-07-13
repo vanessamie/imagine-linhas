@@ -1,0 +1,12 @@
+/*----- FOOTER CONTATO TEXTO -----*/
+.rodape__contato {
+    display: flex;
+    flex-direction: column;
+
+    justify-content: space-between;
+    width: 60rem;
+}
+
+.rodape__contato h2 {
+    font-size: 2rem;
+}

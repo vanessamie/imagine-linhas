@@ -2,6 +2,5 @@
 .container #produtos {
     display: flex;
     flex-direction: column;
-    margin: 6.4rem 6rem;
-
+    margin: 6.4rem 15.2rem;
 }

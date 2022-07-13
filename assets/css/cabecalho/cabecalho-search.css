@@ -1,4 +1,4 @@
-/*----- SEARCH -----*/
+/*----- NAV SEARCH -----*/
 .nav__search {
     background: url(../cabecalho/search.svg) no-repeat 1rem/2rem;
     border: 1px outset var(--color);

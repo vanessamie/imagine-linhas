@@ -1,0 +1,24 @@
+/*----- FOOTER FORMULARIO BTN-----*/
+.form__btn {
+    border-radius: 0.5rem;
+    color: var(--color);
+    font-size: 1.5rem;
+    font-weight: bold;
+
+    height: 3rem;
+    margin-top: 0.8rem;
+    text-align: center;
+    width: 30%;
+}
+
+.form__btn:hover {
+    background: var(--color);
+    color: var(--background);
+    filter: brightness(1.2);
+    letter-spacing: 0.2rem;
+    
+    margin-left: 1rem;
+    margin-top: 0.8rem;
+    opacity: 0.8;
+    transform: scale(1.1);
+}

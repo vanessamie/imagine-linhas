@@ -18,3 +18,13 @@
 @import url(../produtos/produtos-texto.css);
 
 @import url(../footer/footer.css);
+@import url(../footer/footer-logotipo.css);
+
+@import url(../footer/footer-links.css);
+
+@import url(../footer/footer-contato-texto.css);
+@import url(../footer/footer-contato-formulario.css);
+@import url(../footer/footer-contato-botao.css);
+
+@import url(../footer/footer-desenvolvido.css);
+@import url(../footer/footer-desenvolvido-social.css);

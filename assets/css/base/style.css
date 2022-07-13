@@ -1,4 +1,6 @@
 /*----- BASE -----*/
+
+/*----- FONTES -----*/
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Style+Script&display=swap');
 
@@ -8,20 +10,20 @@
     
     --color: rgb(var(--hue), 16, 134);
     --dark-color: rgb(calc(var(--hue) - 1), 8, 80);
-    --background: rgb(235, 217, 247);
-    --background-footer: rgb(201, 129, 235);
+    --background: rgb(calc(var(--hue) + 154), 217, 247);
+    --background-footer: rgb(calc(var(--hue) + 120), 129, 235);
 }
 
 html,
 body {
-    font-family: 'Raleway', sans-serif;
     background: var(--background);
     color: var(--color);
+    font-family: 'Raleway', sans-serif;
 }
 
 .container {
-    width: 99vw;
     margin: 0 auto;
+    width: 99vw;
 }
 
 /*----- SCROOL -----*/

@@ -1,0 +1,19 @@
+/*----- FOOTER LOGOTIPO -----*/
+.rodape__logo {
+    width: 15rem;
+}
+
+.logo__imagem {
+    height: 15rem;
+    width: 15rem;
+}
+
+.logo__texto {
+    font-family: 'Style Script', cursive;
+    font-size: 1rem;
+    font-weight: bold;
+
+    letter-spacing: 0.1rem;
+    margin-left: 6rem;
+    margin-top: -1.5rem;
+}

@@ -1,0 +1,12 @@
+/*----- FOOTER LINKS -----*/
+.rodape__links {
+    display: flex;
+    
+    flex-direction: column;
+    font-size: 2.4rem;
+    font-weight: bold;
+
+    justify-content: space-between;
+    text-align: start;
+    width: 17.6rem;
+}
