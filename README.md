@@ -19,8 +19,8 @@ https://vanessamie.github.io/imagine-linhas/
 ##
 
 ###### Observação: Página em construção:
-###### Sprint 02: Criação do HTML e CSS;
-###### Sprint 03: Validação de Formulário e finalização da página com JavaScript.
+###### Sprint 02: Criação do HTML e CSS; - em desenvolvimento.
+###### Sprint 03: Validação de Formulário e finalização da página com JavaScript. - em desenvolvimento;
 
 Em caso de sugestão ou alguma alteração, fiquem a vontade para entrar em contato! Toda contribuição é bem-vinda!
 
