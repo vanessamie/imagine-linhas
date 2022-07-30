@@ -5,6 +5,7 @@
     font-style: italic;
 
     letter-spacing: 1rem;
+    text-shadow: 3px 3px 1px black;
     position: relative;
 }
 
