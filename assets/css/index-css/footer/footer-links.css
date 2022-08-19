@@ -1,11 +1,9 @@
 /*----- FOOTER LINKS -----*/
 .rodape__links {
-    display: flex;
-    
+    display: flex;   
     flex-direction: column;
     font-size: 2.4rem;
     font-weight: bold;
-
     justify-content: space-between;
     line-height: 3rem;
     width: 17.6rem;

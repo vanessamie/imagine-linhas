@@ -1,7 +1,8 @@
 /*----- NAV LOGIN -----*/
 .nav__login {
     background: linear-gradient(130deg, var(--background), var(--background-footer));
-    border: 1px groove var(--color);
+    box-shadow: 2px 2px 10px 0 var(--color);
+    border: none;
     border-radius: 0.5rem;
     
     color: var(--dark-color);
@@ -16,6 +17,5 @@
 .nav__login:hover {
     background: linear-gradient(0deg, var(--background), var(--background-footer));
     font-size: 2rem;
-    border: none;
-    box-shadow: 2px 2px 10px 0 var(--color);
+    border: 1px groove var(--color);
 }
